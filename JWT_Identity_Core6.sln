@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.User", "Data.User\Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.BaseEntity", "Data.BaseEntity\Data.BaseEntity.csproj", "{0AB6D753-3E34-4659-9672-1BA5A6C62B16}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfrastructureLayer", "InfrastructureLayer", "{14A23A18-B988-425E-9AA9-4B24E2276213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDbContext", "AppDbContext\AppDbContext.csproj", "{36FD0F58-C47D-4B3D-B0C0-F24599799192}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 		{0AB6D753-3E34-4659-9672-1BA5A6C62B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AB6D753-3E34-4659-9672-1BA5A6C62B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AB6D753-3E34-4659-9672-1BA5A6C62B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36FD0F58-C47D-4B3D-B0C0-F24599799192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36FD0F58-C47D-4B3D-B0C0-F24599799192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36FD0F58-C47D-4B3D-B0C0-F24599799192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36FD0F58-C47D-4B3D-B0C0-F24599799192}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0F6F1ADB-5C04-473F-91E9-17BBFDEBAEA4} = {00CD5877-84D4-45BB-9265-22CDE40F8C0C}
 		{0AB6D753-3E34-4659-9672-1BA5A6C62B16} = {00CD5877-84D4-45BB-9265-22CDE40F8C0C}
+		{36FD0F58-C47D-4B3D-B0C0-F24599799192} = {14A23A18-B988-425E-9AA9-4B24E2276213}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53686D25-3F2C-48C9-B9A1-43737C75FCF7}

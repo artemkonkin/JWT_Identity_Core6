@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>6e5b820e-afc9-47fe-a1ec-f91442d33a40</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +16,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppDbContext\AppDbContext.csproj" />
+    <ProjectReference Include="..\Data.BaseEntity\Data.BaseEntity.csproj" />
+    <ProjectReference Include="..\Data.User\Data.User.csproj" />
   </ItemGroup>
 
 </Project>
